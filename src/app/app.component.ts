@@ -40,7 +40,7 @@ circlePack(data){
 
       let focus = root;
       let view;
-     
+    
       const svg = d3.select("#circlePack");
   svg.attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
       .style("display", "block")
